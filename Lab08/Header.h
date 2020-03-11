@@ -21,10 +21,16 @@ public:
 	void add(int num);
 
 	//Delete the root
-	void deleteRoot(); 
+	void deleteRoot();
 
 	//Get the number of elements
 	int get_size() { return size; }
+
+	//Get root
+	int get_root() { return v[0]; }
+
+	//Get last
+	int get_last() { return v[last]; }
 
 	//Check if the heap is empty
 	bool isEmpty();
