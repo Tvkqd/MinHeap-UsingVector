@@ -77,3 +77,13 @@ bool minHeap::isEmpty() {
 		return true;
 	return false;
 }
+
+//Display all elements in sorted order
+void minHeap::print_sorted() {
+	cout << endl << "Output in sorted order: " << endl;
+	while (size != 0) {
+		cout << v[0] << " ";
+		deleteRoot();
+	}
+	cout << endl;
+}

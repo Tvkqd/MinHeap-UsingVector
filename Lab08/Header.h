@@ -34,4 +34,7 @@ public:
 
 	//Check if the heap is empty
 	bool isEmpty();
+
+	//Display all elements in sorted order
+	void print_sorted();
 };
